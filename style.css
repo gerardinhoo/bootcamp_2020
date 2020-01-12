@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url("images/background-img.jpeg");	
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* NAVBAR CSS */
+.navbar {
+     overflow: hidden;
+     background-color: #2C3E50;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a.active {
+  background-color: #f46b45;
+  color: white;
+}
+
+
+/* CONTENT CSS */
+.content {
+    color: whitesmoke;
+}
+.content h1 {
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 5rem
+}
+
+.para {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-left: 5rem;
+    text-align: left;
+}
+
+.person {
+    width: 15%;
+    float: right;
+    margin-right: 85px;
+    position: relative;
+    bottom: 100px;
+}
+
+img {
+    
+    width: 40%;
+    float: right;
+    margin-right: 85px;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.portfolio {
+    padding-bottom: 5%
+}
+
+h3 {
+    font-size: 50px;
+}
+
+
+
+.text-block {
+  position: absolute;
+  bottom: 200px;
+  right: 15%;
+  color: whitesmoke;
+  padding-bottom: 8%;
+  font-size: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-block2 {
+    position: absolute;
+    left: 28%;
+    padding-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+
+.text-block3 {
+  position: absolute;
+  bottom: 0;
+  right: 18%;
+  color: whitesmoke;
+  font-size: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-block4 {
+    position: absolute;
+    left: 20%;
+    padding-top: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+
+/* .coffee {
+    font-size: 30px;
+    color: whitesmoke
+} */
+
+
+/* FOOTER CSS */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #2C3E50;
+   color: white;
+   text-align: center;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: white
+}
+
+input[type=submit] {
+  background-color: #f46b45;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+}
+
+form {
+    color: white
+}
+
+.coffee {
+    color: white;
+    font-size: 15px
+}
+
+
+/* MOBILE CSS */
+@media only screen and (max-width: 600px) {
+   .content h1 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2.5rem
+}
+  .para {
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      padding-bottom: 3rem
+  }
+  img {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+ }
+h1 {
+     font-size: 5px;
+ }
+ 
+h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.text-block h3 {
+    margin: 100px 80px;
+}
+
+.text-block2 h3 {
+    margin-top: 300%;
+    margin-left: 100px
+}
+
+.text-block3 h3 {
+    margin-top: 500%;
+    color: red
+}
+
+.text-block4 h3 {
+    margin-top: 450%;
+}
+
+.person {
+    float: right;
+    margin-right: 85px;
+    position: relative;
+    bottom: 25px;
+    width: 32%
+}
+
+ .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
